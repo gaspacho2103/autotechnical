@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.logo-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.logo__title {
+    display: flex;
+}
+
+.logo-title {
+    color: #3a3a3b;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#tech {
+    color: #4280e3;
+}
+
+.navigate {
+    display: flex;
+    padding-top: 25px;
+    color: #3a3a3b;
+    text-transform: uppercase;
+}
+
+.navigate a + a {
+    margin-left: 35px;
+}
+
+.nav__link {
+    color: #3a3a3b;
+    font-size: 17px;
+
+    transition: .3s;
+}
+
+.nav__link:hover {
+    color: #4280e3;
+    /* border-bottom: 1px solid #4280e3; */
+}
+
+.telephone {
+    display: flex;
+    padding-top: 19px;
+}
+
+.ru {
+    width: 25px;
+    height: 25px;
+}
+
+.phone {
+    padding: 3px;
+    font-size: 18px;
+
+    color: #3a3a3b;
+    transition: .3s;
+}
+
+.phone:hover {
+    color: #4280e3;
+
+    font-size: 21px;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.review__block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #3a3a3b;
+
+    padding: 50px 100px;
+}
+
+.reviews {
+    width: 40%;
+}
+
+.add_review {
+    width: 70%;
+}
+
+.review_card {
+    background: #dbdbdb;
+    padding: 15px;
+    border-radius: 5px;
+
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.nickname {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.review_form {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+
+    background: #4280e3;
+
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.review_form input {
+    margin-bottom: 35px;
+    font-size: 20px;
+
+    padding: 10px;
+    color: #3a3a3b;
+    
+    border-radius: 5px;
+}
+
+.review_form textarea {
+    margin-bottom: 35px;
+    font-size: 20px;
+
+    padding: 10px;
+    color: #3a3a3b;
+    
+    border-radius: 5px;
+
+    resize: none;
+
+    width: 100%;
+
+    min-height: 130px;
+}
+
+.sender-button {
+    padding: 10px 15px;
+    background-color: #fff;
+
+    border-radius: 5px;
+
+    transition: .3s;
+
+}
+
+.sender-button:active {
+    background: #4280e3;
+    color: #fff;
+}
+
+.footer {
+	width: 100%;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-evenly;
+
+	margin-bottom: 30px;
+}
+
+.footer__title {
+
+	margin-bottom: 25px;
+
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	letter-spacing: 3px;
+
+	color: #4280e3;
+}
+
+.contacts img {
+	width: 20px;
+	height: 20px;
+}
+
+.contacts li {
+	font-size: 17px;
+
+	padding: 7px 0;
+}
+
+.adress img {
+	width: 20px;
+	height: 20px;
+}
+
+.adress li {
+	font-size: 17px;
+
+	padding: 7px 0;
+}
+
+.adress__desc {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 19px;
+}
+
+.copyright {
+	width: 100%;
+
+	font-family: 'Mooli', sans-serif;
+
+	background-color: #303030;
+	font-size: 17px;
+	text-align: center;
+	color: #9c9c9c;
+	padding: 20px 0;
+
+	text-transform: uppercase;
+}
+
+@media(max-width: 1030px) {
+    .review-title {
+        padding: 40px 90px;
+    }
+}
+
+@media(max-width: 830px) {
+    .review-title {
+        padding: 20px 60px;
+    }
+}
+
+@media(max-width: 700px) {
+    .review__block {
+        display: block;
+    }
+
+    .review-title {
+        padding: 25px 0px;
+        text-align: center;
+    }
+
+    .reviews {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .add_review {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .review_form {
+        width: 80%;
+    }
+
+    .review_form input {
+        width: 100%;
+    }
+}
+
+@media(max-width: 675px) {
+    .logo-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo-title {
+        font-size: 22px;
+    }
+
+    .navigate {
+        padding-top: 20px;
+    }
+
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .navigate a + a {
+        margin-left: 22px;
+    }
+
+    .ru {
+        width: 20px;
+        height: 20px;
+    }
+
+    .telephone {
+        padding-top: 16px;
+    }
+
+    .phone {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 475px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media(max-width: 400px) {
+    .review_form input {
+        font-size: 17px;
+    }
+    .review_form textarea {
+        font-size: 17px;
+    }
+}
