@@ -15,7 +15,7 @@ Step 2: Copy files and put them on any local hosting.
 
 ![image](https://github.com/gaspacho2103/autotechnical/assets/130499580/f3a086c8-7628-4478-b666-ba303ba12eab)
 
-Step 3: Open DBMS and import file 'DolphinPark.sql'.
+Step 3: Open DBMS and import file 'avtotech.sql'.
 
 ![image](https://github.com/gaspacho2103/autotechnical/assets/130499580/7f1b864d-fd84-4f35-a3c9-6567eef607d9)
 
